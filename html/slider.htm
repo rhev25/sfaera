@@ -1,0 +1,73 @@
+    <meta name="description" content="Camera a free jQuery slideshow with many effects, transitions, adaptive layout, easy to customize, using canvas and mobile ready"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel='stylesheet' id='camera-css'  href='assets/camerajs/css/camera.css' type='text/css' media='all'> 
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			clear: both;
+			display: block;
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			max-width: 1000px;
+			width: 100%;
+		}
+	</style>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+    <script type='text/javascript' src='assets/camerajs/scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='assets/camerajs/scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='assets/camerajs/scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='assets/camerajs/scripts/camera.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: false,
+				height: '590px'
+			});
+		});
+	</script>
+ 
+</head>
+<body>
+	<div class="fluid_container">
+    	<p>Pagination circles with the height relative to the width</p>
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="assets/camerajs/images/slides/thumbs/product1.jpg" data-src="assets/camerajs/images/slides/product1.jpg">
+                <div class="camera_caption fadeFromBottom">
+                   Collection A | Item/Model 1
+                </div>
+            </div>
+            <div data-thumb="assets/camerajs/images/slides/thumbs/product2.jpg" data-src="assets/camerajs/images/slides/product2.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Collection A | Item/Model 2
+                </div>
+            </div>
+        </div><!-- #camera_wrap_1 -->
+    </div><!-- .fluid_container -->
+</body> 
+</html>

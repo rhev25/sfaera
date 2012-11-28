@@ -1,0 +1,35 @@
+/*
+Theme Name: SFAERA Theme
+Theme URI: 
+Description: 
+Author: Design by Wendy Ngai, WP Conversion by Rhev Gutierrez
+Version: 1
+License: 
+License URI: 
+Tags: blue, white, two-columns, fixed-width, threaded-comments, custom-menu
+*/
+
+
+/* -------------------------------------------------------------- */
+
+@font-face {
+    font-family: Idlewild-Bold;
+    src:url(assets/fonts/Idlewild-Bold.otf);
+}
+@font-face {
+    font-family: Idlewild-Book;
+    src:url(assets/fonts/Idlewild-Book.otf);
+}
+
+div, li, ul,p{ padding: 0; margin: 0;}
+html { height: 100%; margin: 0; padding: 0;}
+body{ margin: 0 auto; padding: 0; background:#000;}
+#main-wrapper{ margin: 0 auto; width: 100%; }
+#main-container{height: auto; width: 100%; }
+#container{height: auto; margin: 0 auto; width: 1024px; height: 650px;}
+.content-wrapper{ margin-top: 44px; float:left; width: 1024px; height: 650px; }
+.header{ height: 560px;}
+.footer{ height: 85px;}
+.footer a{ color: #fff; font-family:Arial; font-weight:400; text-transform:uppercase; font-size: 12px; letter-spacing:2px; text-decoration:none;}
+#global-container-left{ float: left; width: 30%; height: 650px; }
+#global-container-right{ float:left; width: 69%; height: 650px; }

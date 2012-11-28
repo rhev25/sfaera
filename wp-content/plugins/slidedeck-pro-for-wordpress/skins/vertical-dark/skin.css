@@ -1,0 +1,207 @@
+/*
+Skin Name: Vertical Dark
+Skin URI: http://www.slidedeck.com/
+Skin Type: dynamic
+Skin Slide Type: vertical
+Skin Image Width: 200
+Skin Image Height: 200
+Description: Dark colored vertical skin for dynamic SlideDecks
+Version: 1.0
+Author: digital-telepathy
+Author URI: http://www.dtelepathy.com/
+Contributors: dtelepathy, dtrenkner, kynatro, oriontimbers
+Tags: dark, vertical, grayscale, dynamic, slidedeck
+*/
+
+div.slidedeck_frame.skin-vertical-dark {
+	position: relative;
+	width: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+	overflow: hidden;
+}
+.skin-vertical-dark dl.slidedeck {
+	position: relative;
+    overflow: hidden;
+	z-index: 1;
+	margin: 0 0 25px 0;
+    padding: 0;
+	background: #000000;
+}
+
+.skin-vertical-dark dl.slidedeck > dd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 19px;
+	color: #333;
+	padding: 30px 55px;
+	background: #000000;
+	color: #ffffff;
+	border: none;
+    margin: 0;
+}
+.skin-vertical-dark dl.slidedeck > dt { display: none; }
+
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-container {
+	position: relative;
+    width: 100%;
+	margin: 0;
+    overflow: hidden;
+    display: block;
+    padding: 0;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-content {
+	position: relative;
+    display: inline;
+    float: left;
+	overflow: hidden;
+	margin: 0;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 20px 0 0;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-title {
+    color: #ffffff;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-title a, .skin-vertical-dark dl.slidedeck dd.slide .sd-node-title a:link, .skin-vertical-dark dl.slidedeck dd.slide .sd-node-title a:visited {
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-title a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+    text-shadow: 0 0 3px #eeeeee;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-timesince {
+	text-transform: uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 19px;
+	color: #999;
+	margin: 0 0 12px;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-excerpt p { margin: 0 0 20px; }
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-image {
+	position: relative;
+    float: left;
+    display: inline;
+	width: 216px;
+	height: 216px;
+    padding-left: 0px;
+    vertical-align: middle;
+	overflow: hidden;
+	text-align: center;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-image-child {
+	position: relative;
+	width: 216px !important;
+	height: 216px;
+	margin: 0;
+	vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-image img {
+    display: block;
+    margin: 0 auto !important;
+    padding: 7px;
+	background: #434343;
+	border: 1px solid #636363;
+	max-width: 200px !important;
+	max-height: 200px !important;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-permalink {
+    margin: 0;
+    float: left;
+    clear: left;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-permalink a, .skin-vertical-dark dl.slidedeck dd .sd-node-permalink a:link, .skin-vertical-dark dl.slidedeck dd .sd-node-permalink a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-style: italic;
+	line-height: 19px;
+    text-decoration: none !important;
+    color: #369 !important;
+}
+.skin-vertical-dark dl.slidedeck dd.slide .sd-node-permalink a:hover {
+    color: #369 !important;
+    text-decoration: underline !important;
+}
+.skin-vertical-dark dl.slidedeck dd.slide dl.slidesVertical { text-indent: 0; }
+.skin-vertical-dark dl.slidedeck dd.slide dl.slidesVertical dd {
+    overflow: hidden;
+    padding: 20px !important;
+    margin: 0 !important;
+}
+.skin-vertical-dark dl.slidedeck dd.slide ul.verticalSlideNav {
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.skin-vertical-dark dl.slidedeck dd.slide ul.verticalSlideNav li {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0 0 3px;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	line-height: 12px;
+    list-style: none;
+	font-size: 1px; /* Stupid IE */
+}
+.skin-vertical-dark dl.slidedeck ul li:before { content: "" !important; }
+.skin-vertical-dark dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 10px;
+    height: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    overflow: hidden;
+    left: 0;
+    border: 1px solid #666;
+    background: #ccc;
+    background-image: -moz-linear-gradient(top, #000, #ccc); /* FF3.6 */
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000),color-stop(1, #ccc)); /* Saf4+, Chrome */
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.skin-vertical-dark dl.slidedeck dd.slide ul.verticalSlideNav li a, .skin-vertical-dark dl.slidedeck dd.slide ul.verticalSlideNav li a:link, .skin-vertical-dark dl.slidedeck dd.slide ul.verticalSlideNav li a:visited {
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 0;
+    overflow: hidden;
+    padding-top: 10px;
+    background: #fff;
+    outline: none;
+	text-decoration: none;
+    border: 1px solid #ccc;
+    filter: Alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.skin-vertical-dark dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+    -webkit-opacity: 0.75;
+    filter: Alpha(opacity=75); 
+}

@@ -1,0 +1,142 @@
+/*
+Skin Name: Stacked Nav Skin w/Arrow
+Skin URI: http://www.slidedeck.com/
+Skin Type: flexible
+Description: The Stacked Nav skin makes use of the vertical slides feature of SlideDeck
+Version: 1.0
+Author: digital-telepathy
+Author URI: http://www.dtelepathy.com/
+Contributors: dtelepathy, dtrenkner, kynatro, oriontimbers
+Tags: light, vertical, grayscale, dynamic, slidedeck, stacked nav
+*/
+
+.skin-stacked-nav-arrow dl.slidedeck {
+	margin-bottom: 25px;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck > dd {
+	overflow:visible !important;
+	padding: 0x;
+	border: none;
+	background-color: rgb(255,255,255);
+	border: 1px solid #cccccc;
+}
+.skin-stacked-nav-arrow dl.slidedeck dt { display:none !important; }
+.skin-stacked-nav-arrow dl.slidedeck dt .index { display:none !important; }
+.skin-stacked-nav-arrow dl.slidedeck .activeCorner { display:none !important; }
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide dl.slidesVertical dd {
+	margin: 0;
+	padding:10px 10px 10px 200px;
+}
+
+/*Vertical Navigation Styling - individual LI dimensions overwritten via JS*/
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav {
+    top: -1px;
+    left: -1px;
+	bottom: -1px;
+	width: 170px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	overflow: visible;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li {
+    position: relative;
+	overflow:visible;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+	width: 168px;
+	border-right:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+	border-left:1px solid #bfbfbf;
+	border-top:1px solid #e6e6e6;
+	line-height: 12px;
+    list-style: none;
+	float:left;
+	clear:left;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li:first-child {
+	border-top:1px solid #bfbfbf;
+}
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li.active {
+	border:1px solid #000000;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
+    position: absolute;
+    display: none !important;
+    z-index: 1;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li a,
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li a:link,
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li a:visited {
+    position: relative;
+    display: block;
+    width: 146px;
+	height: 67px;
+    overflow: visible;
+    padding:0 10px;
+	margin:0;
+    background: #ebebeb;
+    outline: none;
+	text-decoration: none;
+    border: 1px solid #ffffff;
+	color:#000000;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	opacity: 1 !important;
+    -moz-opacity: 1 !important;
+    -webkit-opacity: 1 !important;
+    -khtml-opacity: 1 !important;
+    -ms-filter: "Alpha(opacity=100)" !important;
+    filter: Alpha(opacity=100) !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -khtml-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
+	background-color:#dfdfdf;
+}
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li.active a,
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li.active a:link,
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li.active a:visited,
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li.active a:hover {
+	color:#FFFFFF !important;
+	background-color:#000000;
+	border:1px solid #000000;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li a span.inner {
+	position:absolute;
+	top:50%;
+	line-height:15px;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li span.triangle {
+	display:none;
+	position:absolute;
+	top:-1px;
+	right:-21px;
+	width:0;
+	height:0;
+	border-left: 20px solid #000000;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	z-index:50;
+}
+
+.skin-stacked-nav-arrow dl.slidedeck dd.slide ul.verticalSlideNav li.active span.triangle {
+	display:block;
+}
