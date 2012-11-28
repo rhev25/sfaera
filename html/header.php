@@ -8,7 +8,7 @@
                      	<ul>
                     	<li><a href="#">About</a></li>
                         <li>
-                        <a href="#">Products</a>
+                        <a href="products.php">Products</a>
                             <ul>
 								<li><a href="#">Collection</a></li>
                                 <li><a href="#">Furniture</a></li>
