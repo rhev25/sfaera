@@ -21,6 +21,57 @@
                         	Collections
                         </div>
                     </div>
+                    <div class="collection-wrapper">
+                    	<div class="prod-box">
+                        <p><a href="#">Collection Name 1</a></p>
+                        	<img src="images/thumbnail1.png" />   
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 2</a></p>
+                        	<img src="images/thumbnail2.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 3</a></p>
+                        	<img src="images/thumbnail3.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 4</a></p>
+                        	<img src="images/thumbnail4.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 5</a></p>
+                        	<img src="images/thumbnail1.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 6</a></p>
+                        	<img src="images/thumbnail2.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 7</a></p>
+                        	<img src="images/thumbnail3.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 8</a></p>
+                        	<img src="images/thumbnail4.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 9</a></p>
+                        	<img src="images/thumbnail1.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 10</a></p>
+                        	<img src="images/thumbnail2.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 11</a></p>
+                        	<img src="images/thumbnail3.png" />
+                        </div>
+                        <div class="prod-box">
+                        <p><a href="#">Collection Name 12</a></p>
+                        	<img src="images/thumbnail4.png" />
+                        </div>
+                        
+                    </div>
                 </div>
           </div>
       </div>
