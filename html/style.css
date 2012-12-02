@@ -29,14 +29,14 @@ html { height: 100%; margin: 0; padding: 0;}
 body{ margin: 0 auto; padding: 0; background:#000;}
 #main-wrapper{ margin: 0 auto; width: 100%; }
 #main-container{height: auto; width: 100%; }
-#container{height: auto; margin: 0 auto; /*width: 1024px;*/ height: 710px;}
-.content-wrapper{ /*margin-top: 44px;*/ float:left; width: 1024px; height: 650px; }
-.header{ height: 520px; width: 100%;}
+#container{height: auto; margin: 0 auto; width: 100%; /*width: 1024px;*/ height: 710px;}
+.content-wrapper{ /*margin-top: 44px;*/ float:left; width: 100%; height: 710px; }
+.header{ height: 620px; width: 100%;}
 .footer{ height: 85px;}
 .footer-text{ margin: 5px 0 5px 0; padding: 0 25px; }
 .footer a{ color: #fff; font-family:Arial; font-weight:400; text-transform:uppercase; font-size: 12px; letter-spacing:2px; text-decoration:none;}
-#global-container-left{ float: left; width: 30%; height: 650px; }
-#global-container-right{ float:left; width: 69%; height: 650px; }
+#global-container-left{ float: left; width: 23%; height: 710px; }
+#global-container-right{ float:left; width: 67%; height: 710px; }
 .logo-container{float:left; margin: 0 25px;}
 .menu{float: left; margin: 15px 0 0 0; width: 100%;}
 .menu ul li{ margin: 0 0 20px 0; padding: 0 25px;}
@@ -51,29 +51,29 @@ body{ margin: 0 auto; padding: 0; background:#000;}
 .menu2 ul li ul li{margin: 10px 0 10px 0; list-style-type:none; padding: 0;}
 .menu2 ul li ul li a{ color:#fff; font-size: 9pt; }
 
-.product-landing-desc{width: 200px; height: 630px; background:#111416; position:absolute;}
+.product-landing-desc{width: 23%; height: 710px; background:#111416; float:left;}
 .prod-desc-container{ margin-top: 8.5em;}
 .product-landing-desc p{ color: #fff; font-family:Arial, Helvetica, sans-serif; font-size: 11px; text-align:left; padding: 5px 15px;}
-.product-landing-img{ width: 700px; height: 630px; float:left;}
+.product-landing-img{ width: 77%; height: 710px; float:left;}
 .product-landing-img img{ width: 100%; height: 100%;}
 
-.pagehead-container{ width: 100%; height: 50px; background:#111416; float:left;}
+.pagehead-container{ width: 99.5%; height: 50px; background:#111416; float:left;}
 .pagehead-container .title{color:#fff; font-family: Idlewild-Light; font-size: 9pt; width: 100%; text-align:center; margin-top: 15px; }
 .singlehead-container{ width: 100%; height: 70px; background: #111416; float:left;}
 .singlehead-container .single-title{color:#fff; font-family: Idlewild-Light; font-size: 9pt; width: 70%; text-align:center; margin-top: 30px; float:left; }
 .singlehead-container .back-button-container{color:#fff; font-family: Idlewild-Light; font-size: 9pt; width: 20%; margin-left: 65px; float:left; text-align:right; margin-top: 30px;}
 .singlehead-container .back-button-container a{ color:#fff; text-decoration:none;}
 
-.collection-wrapper{ float:left; height: 600px; width: 100%;}
-.prod-box{float:left; border:1px solid #000; width: 174px; height: 190px;}
+.collection-wrapper{ float:left; height: 670px; width: 100%;}
+.prod-box{float:left; border:1px solid #000; width: 223px; height: 220px;}
 .prod-box img{ width: 100%; height: 100%;}
-.prod-box p{width: 80px; position:absolute; background:#111416; margin-top: 112px; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size: 11px; text-align:center; padding: 25px 0; }
+.prod-box p{background: none repeat scroll 0 0 #111416; font-family: Arial,Helvetica,sans-serif; font-size: 11px; margin-top: 129px; padding: 32px 0; position: absolute; text-align: center; text-transform: uppercase; width: 90px; }
 .prod-box p a{ color:#fff; text-decoration:none;}
 
-.single-product-img{ width: 530px; height: 570px; float:left;}
+.single-product-img{ float: left; height: 640px; width: 690px;}
 .single-product-img img{ width: 100%; height: 100%;}
 
-.single-product-content{ width: 175px; height: 530px; float:left; padding-top: 40px;}
+.single-product-content{ float: left; height: 640px; /*padding-top: 40px;*/ width: 213px;}
 .single-product-content p{ color: #fff; font-family:Arial, Helvetica, sans-serif; font-size: 11px; margin: 15px 10px; text-align:left;}
 .single-product-content p b{ font-size: 12px; text-transform:uppercase; letter-spacing:2px;}
 #camera_wrap_1{ margin-bottom: 0 !important; }/*for slider*/
