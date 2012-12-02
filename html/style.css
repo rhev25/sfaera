@@ -29,8 +29,8 @@ html { height: 100%; margin: 0; padding: 0;}
 body{ margin: 0 auto; padding: 0; background:#000;}
 #main-wrapper{ margin: 0 auto; width: 100%; }
 #main-container{height: auto; width: 100%; }
-#container{height: auto; margin: 0 auto; width: 1024px; height: 650px;}
-.content-wrapper{ margin-top: 44px; float:left; width: 1024px; height: 650px; }
+#container{height: auto; margin: 0 auto; /*width: 1024px;*/ height: 710px;}
+.content-wrapper{ /*margin-top: 44px;*/ float:left; width: 1024px; height: 650px; }
 .header{ height: 520px; width: 100%;}
 .footer{ height: 85px;}
 .footer-text{ margin: 5px 0 5px 0; padding: 0 25px; }

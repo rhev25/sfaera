@@ -11,7 +11,7 @@
                     </div>
                   
                     
-                    <div class="menu">
+                    <div id="main_menu">
                      <?php include_once (dirname(__FILE__)."/ext/mainmenus.php") ?>
                     </div>
             </div>

@@ -7,7 +7,8 @@
                     <?php get_footer(); ?>  
                 </div>
                 <div id="global-container-right">
-                   <?php slidedeck( 4, array( 'width' => '100%', 'height' => '650px' ) ); ?>
+                   <?php //slidedeck( 4, array( 'width' => '100%', 'height' => '650px' ) ); ?>
+				   <?php _slider();?>
                 </div>
             </div>
         </div>

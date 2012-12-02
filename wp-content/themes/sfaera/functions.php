@@ -37,4 +37,8 @@ add_filter('excerpt_more', 'new_excerpt_more');
 /**calling out the custom post types**/
 
 require_once('custom/products-custom.php'); 
+
+function _slider(){
+require('embed/slider.php');
+}
 ?>

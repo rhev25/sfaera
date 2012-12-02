@@ -72,7 +72,7 @@ function products_custom_columns($column){
       the_excerpt();
       break;
     case "productscat":
-      echo get_the_term_list($post->ID, 'product_category', '', ', ','');
+      echo get_the_term_list($post->ID, 'products_category', '', ', ','');
       break;
   }
 }
