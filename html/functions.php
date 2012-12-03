@@ -1,10 +1,21 @@
+<script src="assets/cufonjs/cufon-yui.js" type="text/javascript"></script>
+<script src="assets/fonts/idlewild-light_300.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild-light'});
+Cufon.replace('.pagehead-container .title', {fontFamily: 'idlewild-light'});
+Cufon.replace('.menu ul li a', { fontFamily: 'idlewild-light' });
+Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild-light'});
+Cufon.replace('.singlehead-container .single-title', {fontFamily: 'idlewild-light'});
+Cufon.replace('.singlehead-container .back-button-container', {fontFamily: 'idlewild-light'});
+</script>
+
 <?php 
 	function _header(){
 		include("header.php");	
 	}
 	
 	function header_products(){ ?>
-						<div class="header">
+					<div class="header">
                 	<div class="logo-container">
                     	<a href="index.php"><img src="images/logo.png"></a>
                     </div>

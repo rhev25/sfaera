@@ -5,6 +5,7 @@
 <title>Sfaera</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
+
 <body>
 <?php include("functions.php");?>
 <div id="main-wrapper">
@@ -23,9 +24,11 @@
     <p>Cras risus nulla, porttitor ut elementum non, fringilla quis mi. Morbi vitae lorem ante, ac rhoncus sapien. Morbi id sapien elit, sed ornare mauris. Mauris metus purus, pharetra ac condimentum ut, varius id justo. In hac habitasse platea dictumst. Duis eleifend tempus sodales. Aenean fringilla tincidunt eros a posuere.</p>
 						</div>
                     </div>
+                    
                     <div class="product-landing-img">
-                    	<img src="images/prod-landing.png" />
+                    	<img class="imgLoaded" src="images/prod-landing.png" />
                     </div>
+                    
                 </div>
           </div>
       </div>
