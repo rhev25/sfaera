@@ -16,7 +16,9 @@
                       <?php _footer(); ?>
                 </div>
                 <div id="global-container-right">
+                	<div class="slider-container">
                  	<?php _slider();?>
+                    </div>
                 </div>
           </div>
       </div>
