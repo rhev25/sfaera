@@ -1,12 +1,13 @@
 <script src="assets/cufonjs/cufon-yui.js" type="text/javascript"></script>
-<script src="assets/fonts/idlewild-light_300.font.js" type="text/javascript"></script>
+<script src="assets/fonts/idlewild_300-idlewild_400.font.js" type="text/javascript"></script>
+<script src="assets/fonts/idlewild-book_325.font.js" type="text/javascript"></script>
 <script type="text/javascript">
-Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild-light'});
-Cufon.replace('.pagehead-container .title', {fontFamily: 'idlewild-light'});
-Cufon.replace('.menu ul li a', { fontFamily: 'idlewild-light' });
-Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild-light'});
-Cufon.replace('.singlehead-container .single-title', {fontFamily: 'idlewild-light'});
-Cufon.replace('.singlehead-container .back-button-container', {fontFamily: 'idlewild-light'});
+Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild'});
+Cufon.replace('.pagehead-container .title', {fontFamily: 'idlewild'});
+Cufon.replace('.menu ul li a', { fontFamily: 'idlewild-book' });
+Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild'});
+Cufon.replace('.singlehead-container .single-title', {fontFamily: 'idlewild'});
+Cufon.replace('.singlehead-container .back-button-container', {fontFamily: 'idlewild'});
 </script>
 
 <?php 
