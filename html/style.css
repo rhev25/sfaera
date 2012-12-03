@@ -75,6 +75,6 @@ body{ margin: 0 auto; padding: 0; background:#000; height: 100%;}
 .single-product-img{ float: left; height: 100%; width: 571px; float: left; background-image:url(images/top_tile_bg2_2.jpg);}
 .single-product-img img{ width: 100%; /*height: 100%;*/ position:relative;}
 .single-product-content{ float: left; height: 580px; padding-top: 60px; width:203px;}
-.single-product-content p{ color: #fff; font-family:Arial, Helvetica, sans-serif; font-size: 9px; margin: 15px 15px; padding: 0px 15px;	 text-align:left;}
-.single-product-content p b{ font-size: 10px; text-transform:uppercase; letter-spacing:2px;}
+.single-product-content p{ color: #fff; font-family:Arial, Helvetica, sans-serif; font-size: 10px; margin: 15px 15px; padding: 0px 15px;	 text-align:left;}
+.single-product-content p b{ font-size: 11px; text-transform:uppercase; letter-spacing:2px;}
 #camera_wrap_1{ margin-bottom: 0 !important; }/*for slider*/
