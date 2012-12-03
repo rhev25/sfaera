@@ -27,7 +27,11 @@
                     
                     <div class="product-landing-img">
                     	<img class="imgLoaded" src="images/prod-landing.png" />
+                        <div class="overlay-bg">
+                        <img src="images/overlay.png">
+                        </div>
                     </div>
+                    
                     
                 </div>
           </div>

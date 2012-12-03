@@ -25,7 +25,10 @@
                         </div>
                     </div>
                  <div class="single-product-img">
-                    	<img src="images/prod-landing.png" />
+                    	<img src="images/single-prod.png" />
+                         <div class="overlay-bg-single">
+                        <img src="images/overlay.png">
+                        </div>
                  </div>
                  <div class="single-product-content">
                  	<p><b>Item Name 3</b></p>

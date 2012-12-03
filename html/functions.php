@@ -2,12 +2,11 @@
 <script src="assets/fonts/idlewild_300-idlewild_400.font.js" type="text/javascript"></script>
 <script src="assets/fonts/idlewild-book_325.font.js" type="text/javascript"></script>
 <script type="text/javascript">
-Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild'});
-Cufon.replace('.pagehead-container .title', {fontFamily: 'idlewild'});
+Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild-book'});
+Cufon.replace('.pagehead-container .title', {fontFamily: 'idlewild-book'});
 Cufon.replace('.menu ul li a', { fontFamily: 'idlewild-book' });
-Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild'});
-Cufon.replace('.singlehead-container .single-title', {fontFamily: 'idlewild'});
-Cufon.replace('.singlehead-container .back-button-container', {fontFamily: 'idlewild'});
+Cufon.replace('.singlehead-container .single-title', {fontFamily: 'idlewild-book'});
+Cufon.replace('.singlehead-container .back-button-container', {fontFamily: 'idlewild-book'});
 </script>
 
 <?php 
