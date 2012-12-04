@@ -12,7 +12,7 @@
     	<div id="container">   
         	<div class="content-wrapper">        
                 <div id="global-container-left">
-                      <?php header_products(); ?>
+                      <?php _headerCollection(); ?>
                       <?php _footer(); ?>
                 </div>
                 <div id="global-container-right">
