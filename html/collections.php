@@ -7,75 +7,69 @@
 </head>
 <body>
 <?php include("functions.php");?>
-<div id="main-wrapper">
-    <div id="main-container"> 
-    	<div id="container">   
-        	<div class="content-wrapper">        
-                <div id="global-container-left">
-                      <?php _headerCollection(); ?>
-                      <?php _footer(); ?>
-                </div>
-                <div id="global-container-right">
-                 	<div class="pagehead-container">
-                    	<div class="title">
-                        	Collections
-                        </div>
-                    </div>
-                    <div class="collection-wrapper">
-                    	<div class="prod-box">
-                        <p><a href="single.php">Collection Name 1</a></p>
-                        	<img src="images/thumbnail1.png" />   
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 2</a></p>
-                        	<img src="images/thumbnail2.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 3</a></p>
-                        	<img src="images/thumbnail3.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 4</a></p>
-                        	<img src="images/thumbnail4.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 5</a></p>
-                        	<img src="images/thumbnail1.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 6</a></p>
-                        	<img src="images/thumbnail2.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 7</a></p>
-                        	<img src="images/thumbnail3.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 8</a></p>
-                        	<img src="images/thumbnail4.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 9</a></p>
-                        	<img src="images/thumbnail1.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 10</a></p>
-                        	<img src="images/thumbnail2.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 11</a></p>
-                        	<img src="images/thumbnail3.png" />
-                        </div>
-                        <div class="prod-box">
-                        <p><a href="single.php">Collection Name 12</a></p>
-                        	<img src="images/thumbnail4.png" />
-                        </div>
-                        
-                    </div>
-                </div>
-          </div>
-      </div>
-  </div>
+<div class="content-wrapper">        
+    <div class="global-container-left">
+          <?php _headerCollection(); ?>
+          <?php _footer(); ?>
+    </div>
+    <div class="global-container-left3">
+        <div class="pagehead-container">
+            <div class="title">
+                Collections
+            </div>
+        </div>
+        <div class="collection-wrapper">
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 1</a></p>
+                <img src="images/thumbnail1.png" />   
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 2</a></p>
+                <img src="images/thumbnail2.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 3</a></p>
+                <img src="images/thumbnail3.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 4</a></p>
+                <img src="images/thumbnail4.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 5</a></p>
+                <img src="images/thumbnail1.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 6</a></p>
+                <img src="images/thumbnail2.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 7</a></p>
+                <img src="images/thumbnail3.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 8</a></p>
+                <img src="images/thumbnail4.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 9</a></p>
+                <img src="images/thumbnail1.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 10</a></p>
+                <img src="images/thumbnail2.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 11</a></p>
+                <img src="images/thumbnail3.png" />
+            </div>
+            <div class="prod-box">
+            <p><a href="single.php">Collection Name 12</a></p>
+                <img src="images/thumbnail4.png" />
+            </div>
+            
+        </div>
+    </div>
 </div>
 </body>
 </html>

@@ -6,7 +6,7 @@ Cufon.replace('.menu2 ul li a', {fontFamily: 'idlewild-book'});
 Cufon.replace('.pagehead-container .title', {fontFamily: 'idlewild-book'});
 Cufon.replace('.menu ul li a', { fontFamily: 'idlewild-book' });
 Cufon.replace('.singlehead-container .single-title', {fontFamily: 'idlewild-book'});
-Cufon.replace('.singlehead-container .back-button-container', {fontFamily: 'idlewild-book'});
+Cufon.replace('.back-button-container', {fontFamily: 'idlewild-book'});
 </script>
 
 <?php 

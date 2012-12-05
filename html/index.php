@@ -7,22 +7,17 @@
 </head>
 <body>
 <?php include("functions.php");?>
-<div id="main-wrapper">
-    <div id="main-container"> 
-    	<div id="container">   
-        	<div class="content-wrapper">        
-                <div id="global-container-left">
-                      <?php _header(); ?>
-                      <?php _footer(); ?>
-                </div>
-                <div id="global-container-right">
-                	<div class="slider-container">
-                 	<?php _slider();?>
-                    </div>
-                </div>
-          </div>
-      </div>
-  </div>
+<div class="content-wrapper">        
+    <div class="global-container-left">
+          <?php _header(); ?>
+          <?php _footer(); ?>
+    </div>
+    <div class="global-container-full2">
+    	<div class="slider-container">
+            <img class="slogo" src="images/ae_logo.png">
+            <?php _slider();?>
+        </div>
+    </div>
 </div>
 </body>
 </html>
