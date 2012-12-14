@@ -1,16 +1,14 @@
-<div id="main-wrapper">
-    <div id="main-container"> 
-    	<div id="container">   
-        	<div class="content-wrapper">        
-                <div id="global-container-left">
-                    <?php get_header(); ?>
-                    <?php get_footer(); ?>  
-                </div>
-                <div id="global-container-right">
-                   <?php //slidedeck( 4, array( 'width' => '100%', 'height' => '650px' ) ); ?>
-				   <?php _slider();?>
-                </div>
-            </div>
+<div class="content-wrapper">        
+    <div class="global-container-left">
+          <?php get_header(); ?>
+          <?php get_footer(); ?>
+    </div>
+    <div class="global-container-full2">
+    	<div class="slider-container">
+            <?php echo "<img class='slogo' src='".get_bloginfo("template_directory")."/images/ae_logo.png'>"; ?>
+            <?php _slider();?>
         </div>
     </div>
 </div>
+</body>
+</html>

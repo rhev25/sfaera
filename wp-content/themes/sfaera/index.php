@@ -28,9 +28,8 @@
 	
 	</title>
 
-
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <!--[if IE ]>
 <link href="<?php bloginfo("template_url"); ?>/styleEI.css" rel="stylesheet" type="text/css" media="all" />
 <![endif]--> 
@@ -44,10 +43,25 @@
 if(is_home() OR is_page('home')){
 	include_once(dirname(__FILE__)."/ext/home.php");
 }
-elseif(is_page('products')){
-	include_once(dirname(__FILE__)."/ext/home.php");	
+elseif(is_page('about')){
+	include_once(dirname(__FILE__)."/ext/about.php");	
 }
-elseif(is_page('collections')){
+elseif(is_page('mission')){
+	include_once(dirname(__FILE__)."/ext/mission.php");	
+}
+elseif(is_page('expertise')){
+	include_once(dirname(__FILE__)."/ext/expertise.php");	
+}
+elseif(is_page('concept')){
+	include_once(dirname(__FILE__)."/ext/concept.php");	
+}
+elseif(is_page('contact')){
+	include_once(dirname(__FILE__)."/ext/contact.php");	
+}
+elseif(is_page('products')){
+	include_once(dirname(__FILE__)."/ext/product.php");	
+}
+elseif(is_page('collection')){
 	include_once(dirname(__FILE__)."/ext/collections.php");	// Collections
 }
 elseif(is_page('furniture')){
@@ -58,6 +72,15 @@ elseif(is_page('luxury-home')){
 }
 elseif(is_page('private-commissions')){
 	include_once(dirname(__FILE__)."/ext/private-com.php");	// Private Commissions
+}
+elseif(is_page('privacy-legal')){
+	include_once(dirname(__FILE__)."/ext/privacy-legal.php");	// Privacy Legal
+}
+elseif(is_page('partners')){
+	include_once(dirname(__FILE__)."/ext/partners.php");	//Partners
+}
+elseif(is_404()){
+	include_once(dirname(__FILE__)."/ext/404.php");	//404
 }
 elseif(is_single())
 {
