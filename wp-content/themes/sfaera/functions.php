@@ -39,6 +39,8 @@ add_filter('excerpt_more', 'new_excerpt_more');
 require_once('custom/products-custom.php'); 
 
 function _slider(){
-require('embed/slider.php');
+require_once('embed/slider.php');
 }
+
+wp_enqueue_script( 'cufon', get_bloginfo('template_directory').'/assets/cufonjs/cufon-yui.js', array( 'jquery' ) );
 ?>
