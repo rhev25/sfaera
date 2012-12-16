@@ -8,6 +8,15 @@ Cufon.replace('#main_menu .sub-menu a', { fontFamily: 'idlewild-book' });
 Cufon.replace('.singlehead-container .single-title', {fontFamily: 'idlewild-book'});
 Cufon.replace('.back-button-container', {fontFamily: 'idlewild-book'});
 Cufon.replace('.idlewild-font', {fontFamily: 'idlewild-book'});// ]]>
+jQuery(document).ready(function(){
+	jQuery(".global-container-full").click(function() {
+		jQuery(".collapsible-content").animate({'left':'-=600px'},"slow");
+	});	
+	jQuery(".global-container-left").hover(function() {
+		jQuery(".collapsible-content").animate({'left':'0px'},"slow");
+	});	
+	
+});	
 </script>
 
 <div class="header">

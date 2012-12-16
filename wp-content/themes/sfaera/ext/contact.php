@@ -3,7 +3,7 @@
           <?php get_header(); ?>
           <?php get_footer(); ?>
     </div>
-    <div class="global-container-left2-about">
+    <div class="global-container-left2-about  collapsible-content">
         <div class="contact-landing-desc">
             <div class="contact-desc-container">
 			<?php 

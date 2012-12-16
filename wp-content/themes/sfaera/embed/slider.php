@@ -66,17 +66,18 @@
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
          <?php query_posts( array( 'post_type' => 'products', 'posts_per_page' => 4 ) );
 						  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                          
             <div data-src="<?php $image_id = get_post_thumbnail_id(); 
 			   $image_url = wp_get_attachment_image_src($image_id,'large', true);
-				echo $image_url[0];?>">
+				echo $image_url[0];?>" data-link=<?php the_permalink();?>"">
                 <div class="camera_caption fadeFromBottom">
                   <a href="<?php the_permalink();?>"><?php the_title(); ?></a>
                 </div>
             </div>
+           
             
         <?php endwhile; endif;?>
-        </div><!-- #camera_wrap_1 -->
+        </div>
+        
     </div><!-- .fluid_container -->
 </body> 
 </html>

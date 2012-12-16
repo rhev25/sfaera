@@ -3,7 +3,7 @@
           <?php get_header(); ?>
           <?php get_footer(); ?>
     </div>
-    <div class="global-container-left2">
+    <div class="global-container-left2  collapsible-content">
         <div class="product-landing-desc">
         <?php 
 			if(!is_search()){

@@ -27,7 +27,7 @@
 	?>
 	
 	</title>
-
+<link rel="shortcut icon" href="<?php echo get_bloginfo("template_directory")."/images/ae_logo.png" ?>" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <!--[if IE ]>
